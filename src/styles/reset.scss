@@ -1,0 +1,71 @@
+html {
+  line-height: 1.2;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system-font, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px transparent inset !important;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+img {
+  border: none;
+  outline: none
+}
+
+img[src=""],
+img:not([src]) {
+  opacity: 0;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input {
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+}
+
+button {
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  user-select: none;
+  background: #fff;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
